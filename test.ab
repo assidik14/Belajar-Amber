@@ -1,0 +1,10 @@
+import * from "std"
+
+let name = "John"
+echo len(name)
+echo upper(name)
+echo lower(name)
+
+$whoami$ failed{
+    echo "Whoami not run"
+}

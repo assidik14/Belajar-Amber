@@ -1,0 +1,8 @@
+let container_name = "nginx-proxy"
+let container_images = "assidik14/nginx-proxy:latest"
+
+$docker ps -a |grep {container_name}$ failed {
+    $docker run -d --name {container_name} {container_images}$ failed {
+        echo "{container_name} is not create"
+    }
+}

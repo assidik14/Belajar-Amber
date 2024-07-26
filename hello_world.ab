@@ -1,0 +1,7 @@
+import * from "std"
+
+let sapa = "Hello"
+
+echo sapa + " World!!"
+echo upper(sapa + " World!!")
+echo lower(sapa + " World!!")
